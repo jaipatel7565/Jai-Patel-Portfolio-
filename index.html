@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Font Awesome CDN  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="script.js" />
+  <title> Jai Patel - Portfolio </title>
+</head>
+
+<body>
+  <!-- Further code here -->
+  <nav id="navbar" class="navbar"><a href="#"></a></nav>
+
+  <div class="container">
+    <!--=============== NAVIGATION MENU ===============-->
+
+    <div class="menu">
+      <a href="#welcome-section" class="menu-icon fas fa-home"></a>
+      <a href="#about" class="menu-icon fas fa-user"></a>
+      <a href="#projects" class="menu-icon fas fa-code"></a>
+      <a href="#README" class="menu-icon fas fa-info"></a>
+      <a href="#awards" class="menu-icon fas fa-award"></a>
+      <a href="#contact" class="menu-icon fas fa-envelope"></a>
+    </div>
+
+    <!--=============== MAIN "WINDOW" ===============-->
+
+    <div class="portfolio">
+      <!--=============== HEADER SECTION ===============-->
+
+      <section class="header">
+        <img class="header-img"
+          src="IMG_1006.jpeg"
+          alt="" />
+        <h1>Jai Patel</h1>
+        <h2>Junior at W.P. Davidson High School</h2>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/jai-patel-4b5468290/" target="_blank" class="fab fa-linkedin-in"
+            id="profile-link"></a>
+          <a href="https://replit.com/@jai420648?username=jai420648" target="_blank" class="fab fa-github-alt"></a>
+          <a href="https://www.instagram.com/patel.jai_2/" target="_blank" class="fab fa-instagram" aria-hidden="true"></a>
+        </div>
+        <a href="Jai Patel.pdf" target="_blank"
+          class="cta"> Resume </a>
+      </section>
+
+      <!--=============== CONTENT SECTION ===============-->
+
+      <div class="content">
+        <!--=============== HOME ===============-->
+
+        <section class="content-card home" id="welcome-section">
+          <h1>Hello, I am Jai Patel...</h1>
+        </section>
+
+        <!--=============== ABOUT ME ===============-->
+
+        <section class="content-card about" id="about">
+          <h1>About Me</h1>
+          <div class="about-item about-me">
+            <p>
+              Currently, I am studying at W.P. Davidson High School, in Mobile, Alabama. I am a junior at this school, and I moved here by near the end of 2023 from Canada. I am an inquisitive person who is thriving to learn and experiencing new concepts.
+            </p>
+          </div>
+          <div class="col-2">
+            <div class="about-item skills">
+              <h1>Skills</h1>
+              <p class="skill">Problem Solving</p>
+              <p class="skill">Web Developement & Design</p>
+              <p class="skill">Self-Motivated</p>
+              <p class="skill">Critical Thinking</p>
+              <p class="skill">Video Editing</p> 
+            </div>
+
+            <div class="about-item languages">
+              <h1>Languages</h1>
+              <div class="language">
+                <p>HTML, CSS, JavaScript</p>
+                <span class="bar"><span class="polish"></span></span>
+              </div>
+              <div class="language">
+                <p>Python</p>
+                <span class="bar"><span class="english"></span></span>
+              </div>
+              <div class="language">
+                <p>Java</p>
+                <span class="bar"><span class="french"></span></span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--=============== PROJECTS ===============-->
+
+        <section class="content-card projects" id="projects">
+          <h1>Projects</h1>
+          <div class="col-2 project-list">
+            <div class="project-tile">
+              <p><a href="https://assignment-1.jai420648.repl.co"> <img
+                src="Endgame.jpg.web.webp"></a></p>
+              <div class="overlay">
+                <div class="project-tile:hover .project-descriptio">
+                  <h3>Project 1</h3>
+                  <p>Avengers Endgame</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-tile">
+              <p><a href="https://fifa-world-cup-2022.jai420648.repl.co">  <img src="Fifa.jpg" /> </a> </p>
+              <div class="overlay">
+                <div class="project-description">
+                  <h3>Project 2</h3>
+                  <p>FIFA World Cup 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+         <!--=============== AWARDS ===============-->
+        <section class="content-card projects" id="awards">
+        <h1>Awards</h1>
+        <div style="width: 100%">
+          <iframe id="embedded" src="DAAHS HONOURS GR 10.pdf" style="height: 60vh; width: 45%" ></iframe>
+          <iframe id="embedded" src="Meadows Award.pdf" style="height: 35vh; width: 47%; float:right"></iframe>
+        </div>
+      </section>
+        <!--=============== CONTACT ===============-->
+
+        <section class="content-card contact" id="contact">
+          <h1>Contact</h1>
+          <form class="form" id="form">
+            <div class="input-box">
+              <input type="text" class="text-input" name="name" placeholder="Name" />
+            </div>
+            <div class="input-box">
+              <input type="email" class="text-input" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="input-box">
+              <input type="subject" class="text-input" name="subject" id="subject" placeholder="Subject" />
+            </div>
+            <div class="input-box">
+              <textarea name="text" class="message" placeholder="Message..."></textarea>
+            </div>
+            <div class="input-box">
+              <input type="submit" class="submit-btn" id="submit" value="Submit" />
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
